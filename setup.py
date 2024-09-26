@@ -9,7 +9,7 @@ setup(
     description="A python api to use perplexity.ai",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/nathanrchn/perplexityai",
+    url="https://github.com/headlessfigytebe25/perplexityai",
     packages=find_packages(),
-    requires=["requests", "websocket-client"]
+    install_requires=["requests", "websocket-client"]
 )
